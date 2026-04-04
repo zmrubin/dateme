@@ -29,7 +29,8 @@ export default function LookingFor() {
             </p>
             <p>
               I want someone who has their own thing going on — passions, ambitions, a life
-              I&apos;m joining rather than completing. And someone who genuinely loves animals.
+              I&apos;m joining rather than completing. And someone who genuinely loves animals —
+              because my dog is non-negotiable.
             </p>
           </div>
         </div>

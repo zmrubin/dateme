@@ -14,7 +14,7 @@ const values = [
   {
     icon: "✦",
     title: "Animals aren't optional.",
-    body: "I'm an animal person. Animals have a way of revealing who someone really is, and I'm drawn to people who feel that too.",
+    body: "My dog is part of my life, not a footnote. I'm an animal person and I'm drawn to people who are too.",
   },
   {
     icon: "✦",

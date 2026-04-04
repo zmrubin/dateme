@@ -4,6 +4,10 @@ import { useState } from "react";
 
 const faqs = [
   {
+    q: "Do you have a dog?",
+    a: "Yes. She is, objectively, perfect. You will fall for her immediately.",
+  },
+  {
     q: "How religious are you?",
     a: "Cultural and meaningful, not Orthodox. Shabbat dinner matters. The High Holidays matter. Building a Jewish home matters. I'm not counting minutes from sundown, but it's genuinely important to me and I want it to be important to my partner too.",
   },
