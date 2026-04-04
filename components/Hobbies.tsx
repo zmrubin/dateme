@@ -16,13 +16,6 @@ const hobbies = [
     aspect: "aspect-[3/4]",
   },
   {
-    label: "Gym & Fitness",
-    description:
-      "Most mornings. Not a lifestyle brand — just a ritual that makes me a better version of myself the rest of the day.",
-    photo: "/photos/gym.jpg",
-    aspect: "aspect-[4/3]",
-  },
-  {
     label: "Always Learning",
     description:
       "Current obsession: whatever I got into last month. I like having something I'm reading, building, or getting weirdly deep on.",
