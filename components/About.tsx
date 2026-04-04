@@ -52,14 +52,25 @@ export default function About() {
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            <div className="relative aspect-[16/9] overflow-hidden rounded-sm">
-              <Image
-                src="/photos/about-2.jpg"
-                alt="Zachary"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-700"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
+            <div className="grid grid-cols-2 gap-4">
+              <div className="relative aspect-square overflow-hidden rounded-sm">
+                <Image
+                  src="/photos/about-2.jpg"
+                  alt="Zachary"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                />
+              </div>
+              <div className="relative aspect-square overflow-hidden rounded-sm">
+                <Image
+                  src="/photos/about-3.jpg"
+                  alt="Zachary with friends"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                />
+              </div>
             </div>
           </div>
         </div>

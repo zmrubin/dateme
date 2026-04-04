@@ -29,6 +29,20 @@ const hobbies = [
     photo: "/photos/learning.jpg",
     aspect: "aspect-[3/4]",
   },
+  {
+    label: "My People",
+    description:
+      "I have friends I've known half my life and ones I made last year. Good people around you is something I take seriously.",
+    photo: "/photos/friends.jpg",
+    aspect: "aspect-[4/3]",
+  },
+  {
+    label: "Ocean Life",
+    description:
+      "On the water, in the water, near the water — doesn't matter much. It's where I feel most like myself.",
+    photo: "/photos/ocean.jpg",
+    aspect: "aspect-[3/4]",
+  },
 ];
 
 export default function Hobbies() {
