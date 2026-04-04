@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-charcoal: #0f0e0d;
+  --color-charcoal-light: #1a1815;
+  --color-charcoal-mid: #242220;
+  --color-warm-white: #f5f0eb;
+  --color-warm-muted: #c9bfb3;
+  --color-warm-gold: #c9843a;
+  --color-warm-gold-light: #e09a50;
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f0e0d;
+  color: #f5f0eb;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Shake animation for wrong gate word */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  15% { transform: translateX(-8px); }
+  30% { transform: translateX(8px); }
+  45% { transform: translateX(-6px); }
+  60% { transform: translateX(6px); }
+  75% { transform: translateX(-4px); }
+  90% { transform: translateX(4px); }
+}
+
+.animate-shake {
+  animation: shake 0.55s ease-in-out;
+}
+
+/* Fade-in-up animation for sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+/* Section divider */
+.section-divider {
+  width: 48px;
+  height: 1px;
+  background: #c9843a;
+  opacity: 0.6;
+}
+
+/* Serif headings */
+h1, h2, h3 {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0e0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9843a40;
+  border-radius: 3px;
+}
