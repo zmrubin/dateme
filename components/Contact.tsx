@@ -24,7 +24,7 @@ export default function Contact() {
           {/* Tally embed — replace data-tally-src with your actual Tally form URL */}
           <div className="rounded-sm overflow-hidden">
             <iframe
-              data-tally-src="https://tally.so/embed/YOUR_FORM_ID?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              data-tally-src="https://tally.so/embed/kdWQAe?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
               loading="lazy"
               width="100%"
               height="300"
